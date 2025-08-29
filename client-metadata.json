@@ -1,0 +1,11 @@
+{
+  "client_id": "http://localhost:8080/client-metadata.json",
+  "client_name": "fairquanta",
+  "redirect_uris": ["http://localhost:8080/oauth/callback"],
+  "scope": "atproto transition:generic",
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "application_type": "web",
+  "token_endpoint_auth_method": "none",
+  "dpop_bound_access_tokens": true
+}
