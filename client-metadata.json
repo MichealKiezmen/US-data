@@ -1,7 +1,7 @@
 {
   "client_id": "https://michealkiezmen.github.io/US-data/client-metadata.json",
   "client_name": "fairquanta",
-  "redirect_uris": ["http://127.0.0.1:8080/oauth/callback"],
+  "redirect_uris": ["http://127.0.0.1:8080/auth"],
   "scope": "atproto transition:generic",
   "grant_types": ["authorization_code", "refresh_token"],
   "response_types": ["code"],
